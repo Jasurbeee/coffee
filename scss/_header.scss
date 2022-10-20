@@ -1,0 +1,24 @@
+header {margin-top: 45px;}
+.container{
+    margin: 0 auto;
+    width: 1280px;}
+.nav{display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__list{
+            display: flex;
+            align-items: center; 
+            gap: 32px;}
+    &__link{
+                font-family: "Barlow-Bold";
+                font-size: 12px;
+                line-height: 15px;
+
+                letter-spacing: 0.923077px;
+                text-transform: uppercase;
+
+                color: #83888F;
+                transition: 0.2s ease-out;
+    
+            &:hover{color: #333D4B;}}
+}

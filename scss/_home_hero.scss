@@ -1,0 +1,53 @@
+.main{margin-top: 43px;}
+.hero{
+   margin-bottom: 262px;
+   width: 1280px;
+   height: 600px;
+   background-image: url(../img/coffe_back.png);
+   
+   &__text{padding-left: 85px;
+    padding-top: 117px;}
+    &__title{
+   
+        width: 493px;
+        font-family: "Fraunces 9pt";
+        font-size: 72px;
+        line-height: 72px;
+     
+        color: #FEFCF7;}
+
+
+        &__subtitle{
+            width: 445px;
+            
+            margin: 32px 0 56px;
+            font-size: 16px;
+            line-height: 26px;
+         
+            color: rgba(254, 252, 247, 0.8);
+            
+            mix-blend-mode: normal;
+            }
+    }
+
+
+
+
+.btn__hor{
+       border: 3px solid transparent;
+       background: #0E8784;
+       border-radius: 6px;
+
+       padding: 15px 31px;
+       font-family: "Fraunces 9pt";
+       font-size: 18px;
+       line-height: 25px;
+
+       text-align: center;
+       
+        color: #FEFCF7;
+        transition: 0.5s;
+
+&:hover{background: #66D2CF; cursor: pointer;}
+&:active{transform: scale(1.2);}
+}

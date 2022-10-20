@@ -1,0 +1,70 @@
+.work{position: relative;
+
+
+
+
+&__title{
+    
+    margin-bottom: 80px;
+   
+   font-family: "Fraunces 9pt";
+   font-size: 24px;
+   line-height: 32px;
+
+   color: #83888F;}
+
+
+    &__cards{ 
+        margin-bottom: 64px;
+        display: flex; 
+        gap: 95px;
+        margin-top: 67px;}
+    
+    &__card{width: 285px;}
+
+
+
+    &__card__title{
+        margin: 38px 0 43px;
+        
+        width: 255px;
+        
+        font-family: "Fraunces 9pt";
+        font-size: 32px;
+        line-height: 36px;
+     
+        color: #333D4B;}
+    &__card__sibtitle{
+        font-size: 16px;
+        line-height: 26px;
+     
+        color: #333D4B;}
+}
+
+
+
+
+
+.border{
+    z-index: -1;
+    top: 128px;
+    left: 15px;
+    position: absolute;
+    border: 2px solid #FDD6BA;
+    border-width: 1px;
+    width: 760px; height: 1px;}
+.circles{
+   display: flex; gap: 349px;}
+.circle{width: 32px; height: 32px;
+   background: #FEFCF7;
+   border: 2px solid #0E8784;
+   border-radius: 50%;}
+
+
+.num{
+   font-family: "Fraunces 9pt";
+   font-size: 72px;
+   line-height: 72px;
+
+   color: #FDD6BA;}
+

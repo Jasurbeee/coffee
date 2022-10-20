@@ -1,0 +1,33 @@
+
+.quarter{
+    margin-top: 168px;
+    padding-left: 85px;
+&_heading{ 
+   margin-bottom: 72px;
+  
+   font-family: "Fraunces 9pt";
+   font-size: 24px;
+   line-height: 32px;
+
+   color: #83888F;}
+&__cards{
+    display: flex;
+    gap: 95px;}
+&__item{width: 285px;}
+&__tile{
+   margin: 45px 0 24px;
+   
+   font-family: "Fraunces 9pt";
+   font-size: 32px;
+   line-height: 36px;
+
+   color: #333D4B;}
+&__subtitle{
+   font-size: 16px;
+   line-height: 26px;
+
+   color: #333D4B;}
+}
+
+   
+   

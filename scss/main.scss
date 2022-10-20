@@ -1,0 +1,20 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+   }
+
+
+
+
+body{font-family: "Barlow-Regular";}
+
+@import'./fonts';
+@import'./global';
+@import'./header';
+@import'./home_hero';
+@import'./home_collect';
+@import'./home_choose';
+@import'./home_work';
+@import'./footer';

@@ -1,0 +1,14 @@
+
+
+.footer{background: #2C343E;
+    padding: 47px 85px;
+    margin-top: 200px;
+
+    &__links{display: flex; justify-content: space-between; align-items: center;}
+    &__link{display: flex; gap: 32px; }
+    
+    .link2:hover{color: #FFFFFF;}
+    
+    &-messenger{display: flex; gap: 25px;}
+}
+    

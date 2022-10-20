@@ -1,0 +1,33 @@
+.collect{   
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    width: 1111px;
+   
+    &__img{position: absolute;
+      top: -126px;
+      left: -30px;
+      z-index: -1;}
+
+      &__list{display: flex; 
+         align-items: center;}
+      &__title{
+    
+         margin: 71px 0 24px;
+         font-family: "Fraunces 9pt";
+         font-size: 24px;
+         line-height: 32px;
+      
+
+         color: #333D4B;}
+
+         &__subtitle{
+            width: 250px;
+            font-size: 16px;
+         line-height: 26px;
+         
+         color: #333D4B;}   
+}
+ 
+ 
+
