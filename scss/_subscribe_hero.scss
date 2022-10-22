@@ -1,0 +1,26 @@
+.hero{
+    margin-top: 44px;
+    margin-bottom: 148px;
+ 
+    width: 1280px;
+    height: 450px;
+    background-image: url(../img/sub-bak-img.png);
+ &__text{
+    width: 445px;
+    padding-top: 137px;
+    padding-left: 85px;}
+ &__title{
+    margin-bottom: 24px;
+    font-family: "Fraunces 9pt";
+    font-size: 40px;
+    line-height: 48px;
+ 
+    color: #FEFCF7;
+    }
+ &__subtitle{
+    
+    font-size: 12px;
+    line-height: 26px;
+ 
+    color: #FEFCF7;}
+ }

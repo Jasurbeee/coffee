@@ -1,0 +1,82 @@
+.work{position: relative;
+
+    background: #2C343E;
+    border-radius: 10px;
+    padding-bottom: 100px;
+    padding-left: 85px;
+    padding-top: 100px;
+    margin-bottom: 168px;
+
+    &__title{
+        
+        margin-bottom: 80px;
+       
+       font-family: "Fraunces 9pt";
+       font-size: 24px;
+       line-height: 32px;
+    
+       color: #FDD6BA;}
+    
+    
+        &__cards{ 
+            
+            display: flex; 
+            gap: 95px;
+            margin-top: 67px;}
+        
+        &__card{width: 285px;}
+    
+    
+    
+        &__card__title{
+            margin: 38px 0 43px;
+            
+            width: 255px;
+            
+            font-family: "Fraunces 9pt";
+            font-size: 32px;
+            line-height: 36px;
+         
+            color: #FEFCF7;}
+        &__card__sibtitle{
+            font-size: 16px;
+            line-height: 26px;
+         
+            color: #FEFCF7;}
+    }
+    
+    
+    
+    
+    
+    .border{
+        z-index: 1;
+        top: 114px;
+        left: 95px;
+        position: absolute;
+        border: 2px solid #FDD6BA;;
+        border-width: 1px;
+        width: 760px; height: 1px;}
+    .circles{
+       display: flex; 
+       gap: 349px;}
+    
+       .circle{
+        position: relative;
+        z-index: 5;
+        width: 32px;
+         height: 32px;
+       background: #2C343E;
+       border: 2px solid #0E8784;
+       border-radius: 50%;}
+    
+    
+    .num{
+       font-family: "Fraunces 9pt";
+       font-size: 72px;
+       line-height: 72px;
+    
+       color: #FDD6BA;}
+    
+
+       
